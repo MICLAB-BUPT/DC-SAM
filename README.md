@@ -2,7 +2,7 @@
 
 This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
 
-**Authors**: Pengfei Zhu, Mengshi Qi, Huadong Ma, Lu Qi, Xiangtai Li, Ming-Hsuan Yang
+**Authors**: Mengshi Qi, Pengfei Zhu, Huadong Ma, Lu Qi, Xiangtai Li, Ming-Hsuan Yang
 
 ## Table of Contents
 
@@ -128,6 +128,17 @@ python eval_video.py --coco_path /path/to/coco --icvos_path /path/to/icvos --ckp
 To evaluate on few-shot segmentation benchmarks:
 ```
 python eval_iamge.py --datapath /path/to/benchmark --benchmark pascal/coco --fold 0/1/2/3 --ckpt /path/to/ckpt
+```
+
+## Citation
+
+```
+@article{qi2025dcsam,
+  title={DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency},
+  author={Qi, Mengshi and Zhu, Pengfei and Ma, Huadong and Qi, Lu and Li, Xiangtai and Yang, Ming-Hsuan},
+  journal={arXiv preprint arXiv:2504.12080},
+  year={2025}
+}
 ```
 
 ## License
