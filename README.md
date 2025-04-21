@@ -104,7 +104,7 @@ SAM2 checkpoint can be download from this [repository](https://github.com/facebo
 
 ### Training
 
-It is recommand to train DC-SAM using 4 GPUs:
+It is recommend to train DC-SAM using 4 GPUs:
 
 Train on image:
 ```
