@@ -1,7 +1,7 @@
 <div align="center">
 <h1>DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency</h1>
 
-<img src="resources/overview.png" width="80%"/>
+<img src="resources/overview.png" width="90%"/>
 <br />
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
@@ -60,7 +60,7 @@
 
 We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC-VOS)** by adapting several classic datasets into the in-context paradigm. In this setting, the model must segment the target object in a query video based on a provided *reference frame + mask* pair.
 
-<img src="resources/bench.png" width="100%"/>
+<img src="resources/bench.png" width="80%"/>
 
 ---
 
@@ -68,7 +68,7 @@ We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC
 
 **DC-SAM** significantly outperforms existing in-context learners and SAM-based variants by maintaining superior consistency.
 
-<img src="resources/res.png" width="100%"/>
+<img src="resources/res.png" width="60%"/>
 
 
 ## Getting Started
